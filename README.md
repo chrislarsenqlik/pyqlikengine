@@ -7,6 +7,10 @@ PyQlikEngine is a python module used to communicate with the Qlik Sense Engine A
 2. Push into jupyter, cdsw, or other notebook environment
 3. Open and run DR_Qlik_Demo.py.. 
 
+Setting up JWT can be a pain, in my opinion this is best resource:
+
+https://github.com/goldbergjeffrey/qs-jwt-examples/blob/master/docs/vpconfig.md
+
 ## What is Happening
 
 This is a fully [currently] working demo which uses a live Qlik Sense Enterprise environment, pulls data out into a dataframe, runs the data against a pre-built model in Datarobot using their python API. 
